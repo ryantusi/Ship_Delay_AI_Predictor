@@ -1,0 +1,2 @@
+AI_Model/init/*.h5 filter=lfs diff=lfs merge=lfs -text
+AI_Model/init/*.joblib filter=lfs diff=lfs merge=lfs -text
