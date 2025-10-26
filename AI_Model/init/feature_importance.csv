@@ -1,0 +1,65 @@
+Feature,Importance
+customs_complexity_score,0.058201737054420416
+weather_sea_risk,0.0554764146859949
+origin_port_congestion,0.05098832303277215
+weather_risk_score,0.050398105951158644
+safety_inspection_score,0.05027913485664958
+port_total_congestion,0.0499174833260561
+dest_port_congestion,0.04949863779153153
+fuel_price_index,0.048054123578916405
+freight_rate_index,0.047975616381153774
+cargo_weight_tons,0.04720371380954716
+distance_nautical_miles,0.047171029427196004
+route_complexity,0.04698518382592527
+fuel_consumption_tons_day,0.04686431430271165
+vessel_efficiency,0.0456654617422505
+vessel_capacity_teu,0.019185008526759563
+cargo_utilization_pct,0.01762698294474825
+age_category_Old,0.015575056362521442
+maintenance_risk,0.007442619384390556
+is_peak_season,0.007429261549170508
+sea_state_Rough,0.007405954684852231
+has_hazardous_cargo,0.00663669227987154
+season_Fall,0.0064874189714992205
+age_category_New,0.006403704784736246
+age_category_Medium,0.006398818151985047
+season_Spring,0.006351537167947966
+season_Winter,0.0061788159643394285
+season_Summer,0.006177791827115827
+is_weekend_departure,0.006158882535161985
+vessel_type_Container Ship,0.006073855372805007
+vessel_type_Tanker,0.0060187052719896505
+vessel_type_Bulk Carrier,0.005873222068583848
+vessel_type_RoRo,0.005866047849548144
+vessel_type_General Cargo,0.0058387864421297385
+sea_state_Moderate,0.005755799977962609
+sea_state_Very Rough,0.005540513033539743
+departure_day_Friday,0.005475170204650155
+departure_day_Tuesday,0.005356912880595041
+departure_day_Monday,0.0052996973726331074
+departure_day_Wednesday,0.005246605514529889
+sea_state_Calm,0.00523664380241795
+origin_port_Hong Kong,0.0051542037818875595
+departure_day_Thursday,0.00514039534302481
+destination_port_Melbourne,0.005103919015901176
+origin_port_Tokyo,0.004948627090322717
+destination_port_Cape Town,0.0049009263294847475
+departure_day_Saturday,0.004899953907500681
+departure_day_Sunday,0.004845819629461621
+destination_port_Auckland,0.004831256427025203
+origin_port_Singapore,0.0048259415206944965
+origin_port_Mumbai,0.004785859925096661
+destination_port_London,0.004750630656306764
+origin_port_Los Angeles,0.004710925995645393
+destination_port_Santos,0.004694432226916672
+destination_port_Vancouver,0.004575606465180832
+destination_port_New York,0.004561922993489622
+destination_port_Sydney,0.004552735125692589
+origin_port_Shanghai,0.004537910099623112
+origin_port_Hamburg,0.00451357338976625
+destination_port_Barcelona,0.004458284633545876
+origin_port_Busan,0.004455699796622258
+origin_port_Rotterdam,0.004398848525227742
+origin_port_Dubai,0.004387612867775219
+destination_port_Houston,0.004311741387109668
+high_utilization,0.003933388173929642
