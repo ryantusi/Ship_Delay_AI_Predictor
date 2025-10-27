@@ -2,6 +2,8 @@
 =============================================================================
 SHIP DELIVERY DELAY PREDICTION - COMPLETE ML + DEEP LEARNING PIPELINE
 =============================================================================
+~ By Ryan Tusi -> https://github.com/ryantusi/Ship_Delay_AI_Predictor
+=============================================================================
 Domain: Maritime Logistics & Supply Chain
 Problem: Predict whether a shipment will be delayed (binary classification)
 Dataset: Synthetic based on real logistics patterns
@@ -83,6 +85,7 @@ plt.rcParams['figure.figsize'] = (12, 6)
 
 print("=" * 80)
 print("SHIP DELIVERY DELAY PREDICTION - ML + DEEP LEARNING PIPELINE")
+print("By Ryan Tusi -> https://github.com/ryantusi/Ship_Delay_AI_Predictor")
 print("=" * 80)
 print("\nProject Scope:")
 print("Goals: Build production-ready ML + DL pipeline to predict shipment delays")
@@ -1724,8 +1727,9 @@ print("=" * 80)
 
 report = f"""
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║            SHIP DELIVERY DELAY PREDICTION - ML + DL PIPELINE                  ║
-║                     COMPREHENSIVE PROJECT REPORT                              ║
+║            SHIP DELIVERY DELAY PREDICTION - ML + DL PIPELINE                 ║
+║                     COMPREHENSIVE PROJECT REPORT                             ║
+║                             ~ Ryan Tusi                                      ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 📊 PROJECT OVERVIEW
@@ -1896,6 +1900,7 @@ Visualizations:
 
 ═══════════════════════════════════════════════════════════════════════════════
                         PROJECT COMPLETED SUCCESSFULLY!
+                https://github.com/ryantusi/Ship_Delay_AI_Predictor
 ═══════════════════════════════════════════════════════════════════════════════
 """
 

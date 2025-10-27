@@ -2,7 +2,7 @@
     "project_info": {
         "name": "Ship Delay Prediction - Recall Optimized",
         "version": "3.0",
-        "date_created": "2025-10-26 22:11:03",
+        "date_created": "2025-10-27 13:13:50",
         "optimization_focus": "Maximize Recall (catch delays)",
         "description": "Production-ready ML pipeline with SMOTE, class balancing, and threshold optimization"
     },
@@ -130,7 +130,7 @@
             "Val F1": 0.6650378695333496,
             "Val Recall": 0.8883812010443864,
             "Val Precision": 0.5314330339711051,
-            "Val AUC": 0.660534301018715
+            "Val AUC": 0.6605311703639699
         }
     ]
 }

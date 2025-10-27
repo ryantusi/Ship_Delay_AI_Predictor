@@ -1,6 +1,7 @@
 """
 =============================================================================
 SHIP DELIVERY DELAY PREDICTION - OPTIMIZED ML + DEEP LEARNING PIPELINE
+~ By Ryan Tusi -> https://github.com/ryantusi/Ship_Delay_AI_Predictor
 =============================================================================
 Domain: Maritime Logistics & Supply Chain
 Problem: Predict whether a shipment will be delayed (binary classification)
@@ -78,6 +79,7 @@ plt.rcParams['figure.figsize'] = (12, 6)
 
 print("=" * 80)
 print("OPTIMIZED SHIP DELAY PREDICTION - HIGH RECALL FOCUS")
+print("~ By Ryan Tusi -> https://github.com/ryantusi/Ship_Delay_AI_Predictor")
 print("=" * 80)
 print("\nGoal: Maximize recall (catch delays) while maintaining reasonable precision")
 print("Target: Recall > 55%, F1 > 0.45, AUC > 0.72\n")
@@ -1021,7 +1023,8 @@ print("=" * 80)
 
 improvement_report = f"""
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║        SHIP DELAY PREDICTION - RECALL-OPTIMIZED RESULTS                      ║
+║             SHIP DELAY PREDICTION - RECALL-OPTIMIZED RESULTS                 ║
+║                           ~ By Ryan Tusi                                     ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 📊 OPTIMIZATION ACHIEVEMENTS
