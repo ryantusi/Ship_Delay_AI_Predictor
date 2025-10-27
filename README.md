@@ -105,7 +105,9 @@ The front-end user experience is built around a complex MLOps workflow running b
 
 ## ✍️ Author & Licensing
 
-**Ryan Tusi** | [LinkedIn](https://www.linkedin.com/in/ryantusi/) | [Github](https://github.com/ryantusi/) | [Portfolio](https://ryantusi.netlify.app/)
+**Ryan Tusi** | AI/ML Engineer + Full-Stack Developer | Software Engineering with Machine Learning Specialization | Codecademy & Harvard Certified
+
+**[LinkedIn](https://www.linkedin.com/in/ryantusi/) | [Github](https://github.com/ryantusi/) | [Portfolio](https://ryantusi.netlify.app/)**
 
 **Licensing:**
 This project is licensed under the **Creative Commons**. See the included `LICENSE` file for full details.
