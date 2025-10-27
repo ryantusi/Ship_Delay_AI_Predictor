@@ -1,0 +1,136 @@
+{
+    "project_info": {
+        "name": "Ship Delay Prediction - Recall Optimized",
+        "version": "3.0",
+        "date_created": "2025-10-26 22:11:03",
+        "optimization_focus": "Maximize Recall (catch delays)",
+        "description": "Production-ready ML pipeline with SMOTE, class balancing, and threshold optimization"
+    },
+    "data_info": {
+        "total_samples": 20000,
+        "train_samples": 12800,
+        "val_samples": 3200,
+        "test_samples": 4000,
+        "delay_rate": 0.4786,
+        "features_original": 40,
+        "features_engineered": [
+            "vessel_efficiency",
+            "route_complexity",
+            "port_total_congestion",
+            "weather_sea_risk",
+            "age_weather_interaction",
+            "congestion_customs_interaction",
+            "utilization_distance_interaction",
+            "high_risk_departure",
+            "critical_maintenance_window",
+            "extreme_conditions"
+        ]
+    },
+    "preprocessing": {
+        "smote_applied": true,
+        "class_weights": {
+            "0": 0.958945160323644,
+            "1": 1.0447273914462945
+        },
+        "scaler": "RobustScaler",
+        "numeric_features": [
+            "vessel_capacity_teu",
+            "distance_nautical_miles",
+            "fuel_consumption_tons_day",
+            "cargo_weight_tons",
+            "cargo_utilization_pct",
+            "weather_risk_score",
+            "origin_port_congestion",
+            "dest_port_congestion",
+            "customs_complexity_score",
+            "fuel_price_index",
+            "freight_rate_index",
+            "safety_inspection_score",
+            "has_hazardous_cargo",
+            "is_peak_season",
+            "vessel_efficiency",
+            "route_complexity",
+            "port_total_congestion",
+            "weather_sea_risk",
+            "age_weather_interaction",
+            "congestion_customs_interaction",
+            "utilization_distance_interaction",
+            "high_risk_departure",
+            "critical_maintenance_window",
+            "extreme_conditions",
+            "is_weekend_departure",
+            "high_utilization",
+            "maintenance_risk"
+        ],
+        "categorical_features": [
+            "vessel_type",
+            "origin_port",
+            "destination_port",
+            "season",
+            "sea_state",
+            "departure_day",
+            "age_category",
+            "utilization_category"
+        ]
+    },
+    "best_model": {
+        "name": "XGBoost",
+        "optimal_threshold": 0.3163617253303528,
+        "validation_metrics": {
+            "f1_score": 0.6753371868978806,
+            "recall": 0.9151436031331592,
+            "precision": 0.5351145038167939,
+            "auc": 0.6724709005641439
+        },
+        "test_metrics": {
+            "accuracy": 0.56275,
+            "precision": 0.5248419150858176,
+            "recall": 0.9106583072100314,
+            "f1_score": 0.6659025787965616,
+            "auc": 0.679795441771836
+        },
+        "confusion_matrix": {
+            "true_negatives": 508,
+            "false_positives": 1578,
+            "false_negatives": 171,
+            "true_positives": 1743
+        }
+    },
+    "model_comparison": [
+        {
+            "Model": "XGBoost",
+            "Val F1": 0.6753371868978806,
+            "Val Recall": 0.9151436031331592,
+            "Val Precision": 0.5351145038167939,
+            "Val AUC": 0.6724709005641439
+        },
+        {
+            "Model": "Random Forest",
+            "Val F1": 0.6730238393977416,
+            "Val Recall": 0.8753263707571801,
+            "Val Precision": 0.5466775377089278,
+            "Val AUC": 0.6773363293699244
+        },
+        {
+            "Model": "Gradient Boosting",
+            "Val F1": 0.6728245017015071,
+            "Val Recall": 0.9033942558746736,
+            "Val Precision": 0.5360185902401239,
+            "Val AUC": 0.6816844174790716
+        },
+        {
+            "Model": "LightGBM",
+            "Val F1": 0.6691015339663988,
+            "Val Recall": 0.8968668407310705,
+            "Val Precision": 0.5335922330097087,
+            "Val AUC": 0.6744659103004802
+        },
+        {
+            "Model": "Extra Trees",
+            "Val F1": 0.6650378695333496,
+            "Val Recall": 0.8883812010443864,
+            "Val Precision": 0.5314330339711051,
+            "Val AUC": 0.660534301018715
+        }
+    ]
+}
