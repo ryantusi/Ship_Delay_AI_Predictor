@@ -1,6 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║        SHIP DELAY PREDICTION - RECALL-OPTIMIZED RESULTS                      ║
+║             SHIP DELAY PREDICTION - RECALL-OPTIMIZED RESULTS                 ║
+║                           ~ By Ryan Tusi                                     ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 📊 OPTIMIZATION ACHIEVEMENTS

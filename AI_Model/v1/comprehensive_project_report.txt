@@ -1,7 +1,8 @@
 
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║            SHIP DELIVERY DELAY PREDICTION - ML + DL PIPELINE                  ║
-║                     COMPREHENSIVE PROJECT REPORT                              ║
+║            SHIP DELIVERY DELAY PREDICTION - ML + DL PIPELINE                 ║
+║                     COMPREHENSIVE PROJECT REPORT                             ║
+║                             ~ Ryan Tusi                                      ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 📊 PROJECT OVERVIEW
@@ -42,8 +43,8 @@ Training:    Early stopping + Learning rate reduction
 Epochs:      Up to 100 (with early stopping)
 Batch Size:  32
 
-Best DL Model: Simple NN
-Test F1:       0.3449
+Best DL Model: ResNet
+Test F1:       0.3237
 
 🔗 ENSEMBLE METHODS
 ─────────────────────────────────────────────────────────────────────────────────
@@ -52,37 +53,37 @@ Test F1:       0.3449
 • Majority Voting
 
 Best Ensemble: Simple Average
-Test F1:       0.2801
+Test F1:       0.2217
 
 📈 FINAL MODEL PERFORMANCE (Test Set)
 ─────────────────────────────────────────────────────────────────────────────────
-Selected Model: Simple NN (Deep Learning)
+Selected Model: ResNet (Deep Learning)
 
-Accuracy:       0.6495
-Precision:      0.5387 (53.9% of predicted delays are actual)
-Recall:         0.2536 (captures 25.4% of all actual delays)
-F1 Score:       0.3449
-ROC AUC:        0.6368
+Accuracy:       0.6418
+Precision:      0.5166 (51.7% of predicted delays are actual)
+Recall:         0.2357 (captures 23.6% of all actual delays)
+F1 Score:       0.3237
+ROC AUC:        0.6385
 
 Confusion Matrix:
                  Predicted On Time    Predicted Delayed
-Actual On Time        2229              316
-Actual Delayed        1086              369
+Actual On Time        2224              321
+Actual Delayed        1112              343
 
 🎯 MODEL COMPARISON SUMMARY
 ─────────────────────────────────────────────────────────────────────────────────
 Traditional ML:  F1 = 0.2848, AUC = 0.6265
-Deep Learning:   F1 = 0.3449, AUC = 0.6368
-Ensemble:        F1 = 0.2801
+Deep Learning:   F1 = 0.3237, AUC = 0.6385
+Ensemble:        F1 = 0.2217
 
-Winner: Simple NN (Deep Learning) with F1 = 0.3449
+Winner: ResNet (Deep Learning) with F1 = 0.3237
 
 🔬 DIMENSIONALITY REDUCTION (PCA)
 ─────────────────────────────────────────────────────────────────────────────────
 Original Dimensions:  64
 Reduced Dimensions:   41 (95% variance retained)
 PCA + RF F1:          0.2671
-PCA + DL F1:          0.3190
+PCA + DL F1:          0.2196
 
 💼 BUSINESS VALUE
 ─────────────────────────────────────────────────────────────────────────────────
@@ -157,8 +158,8 @@ Visualizations:
 ⏱️  PERFORMANCE INSIGHTS
 ─────────────────────────────────────────────────────────────────────────────────
 • Traditional ML trains in seconds, excellent for rapid iteration
-• Deep Learning achieves 0.3449 F1, capturing complex patterns
-• Ensemble provides robust predictions with 0.2801 F1
+• Deep Learning achieves 0.3237 F1, capturing complex patterns
+• Ensemble provides robust predictions with 0.2217 F1
 • PCA reduces dimensions by 35.9% while retaining 95% variance
 
 📊 RECOMMENDATIONS FOR PRODUCTION
@@ -172,4 +173,5 @@ Visualizations:
 
 ═══════════════════════════════════════════════════════════════════════════════
                         PROJECT COMPLETED SUCCESSFULLY!
+                https://github.com/ryantusi/Ship_Delay_AI_Predictor
 ═══════════════════════════════════════════════════════════════════════════════
