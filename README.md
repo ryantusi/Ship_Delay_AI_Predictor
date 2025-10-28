@@ -1,5 +1,5 @@
 # 🚢 AI-Powered Ship Delivery Delay Prediction
-
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face%20Space-Live-blue?style=for-the-badge)](https://huggingface.co/spaces/ryantusi/DeepPort-Forecast)
 ## Project Overview
 
 **DeepPort Forecast** is an end-to-end Machine Learning Operations (MLOps) project designed to predict whether a maritime container shipment will arrive **On Time** or **Delayed** (Binary Classification).
