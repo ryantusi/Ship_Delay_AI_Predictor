@@ -1,0 +1,19 @@
+# Python dependencies
+venv
+.venv
+__pycache__
+*.pyc
+*.egg-info
+.mypy_cache
+.pytest_cache
+
+# Large files NOT needed for runtime
+AI_Model/
+ship_logistics_raw_data.csv
+*.log
+*.sqlite3
+
+# System files
+.DS_Store
+.git
+.gitignore
