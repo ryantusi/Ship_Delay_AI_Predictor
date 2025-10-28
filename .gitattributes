@@ -1,4 +1,10 @@
-AI_Model/v1/*.h5 filter=lfs diff=lfs merge=lfs -text
-AI_Model/v1/*.joblib filter=lfs diff=lfs merge=lfs -text
-AI_Model/v2/*.h5 filter=lfs diff=lfs merge=lfs -text
-AI_Model/v2/*.joblib filter=lfs diff=lfs merge=lfs -text
+# Track all Joblib files in the AI_Model directory hierarchy
+AI_Model/**/*.joblib filter=lfs diff=lfs merge=lfs -text
+
+# Track all H5 and Keras files in the AI_Model directory hierarchy
+AI_Model/**/*.h5 filter=lfs diff=lfs merge=lfs -text
+AI_Model/**/*.keras filter=lfs diff=lfs merge=lfs -text
+
+# Ensure the deployment models are also covered (you probably already have this)
+app/models/*.joblib filter=lfs diff=lfs merge=lfs -text
+app/models/*.keras filter=lfs diff=lfs merge=lfs -text
