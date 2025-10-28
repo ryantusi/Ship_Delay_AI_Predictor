@@ -6,6 +6,19 @@
 
 The core value of this system is to function as a proactive **Early Warning System**, dramatically increasing the detection rate of potential delays (Recall) to minimize associated logistics costs and improve customer trust.
 
+### 🌐 Live Deployment: Test the DeepPort Forecast
+
+The optimized model (V2) is live and deployed using Docker on Hugging Face Spaces. You can interact with the simulator instantly without any local setup.
+
+**How to Use:**
+1. Click the link below to access the live web application.
+2. The form is pre-populated with a low-risk sample. Click **Predict Delay Status** to see the baseline output.
+3. To test the model's true capabilities, input the **High-Risk Values** (e.g., Vessel Age $\mathbf{25}$, Weather Risk $\mathbf{9.0}$) and watch the prediction switch to **DELAYED**.
+
+**[👉 Access the Live Simulator Here](https://huggingface.co/spaces/ryantusi/DeepPort-Forecast)**
+
+![demo](DeepPort.gif)
+
 ### Key Achievements
 
 This repository contains the full source code for model development (V1 and V2) and the deployed Flask application (`/app`), demonstrating high proficiency in data science, MLOps, and full-stack integration.
